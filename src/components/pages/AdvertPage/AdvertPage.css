@@ -1,0 +1,316 @@
+.advertPage {
+  display: flex;
+  flex-direction: column;
+}
+
+.advertpage-container {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: khaki;
+  border-radius: 15px;
+  background-color: var(--bg-color);
+  padding: 1rem;
+  box-shadow: 0px 0px 20px rgba(124, 142, 210, 0.8);
+}
+
+.advertpage-advert-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.advertpage-author {
+  flex: 1;
+}
+
+.advertpage-actions {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+.advertpage-actions button {
+  border-radius: 20px;
+  border: none;
+}
+.advertpage-chatbutton {
+  /* position: relative;
+  float: right;
+  margin: 0 0 0 1rem; */
+  background-color: var(--bg-button-main);
+  color: var(--color-button-main);
+  padding: 0.2rem;
+  width: 6rem;
+  text-align: center;
+  border-radius: 30px;
+  font-size: larger;
+  cursor: pointer;
+}
+.advertpage-chatbutton:hover {
+  background-color: var(--bg-solid-color);
+}
+
+.advertpage-actions .button-text {
+  display: none;
+}
+
+.advertpage-edit .ant-btn-dashed {
+  border: solid 2px;
+  color: var(--warning-color);
+}
+.advertpage-reserved-sold {
+  display: flex;
+  flex-direction: row;
+}
+
+.advertpage-reserved-sold .advertpage-reserved {
+  flex: 1;
+  margin: 0 0.1rem;
+}
+
+.advertpage-reserved-sold .advertpage-sold {
+  flex: 1;
+  margin: 0 0.1rem;
+}
+
+.advertpage-photo-container {
+  height: 300px;
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+  margin: 1rem auto;
+  background-color: #f1f1f1;
+  border-radius: 1 5px 15px 0 0;
+}
+
+.advertpage-photo-container img {
+  height: 100%;
+
+  margin: auto;
+  border-radius: 5px 5px 0 0;
+}
+
+.advertpage-title-price {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.advertpage-title {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-right: 2rem;
+  text-align: left;
+}
+
+.advertpage-status-tags {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-top: 1rem;
+}
+.advertpage-status-Available::after {
+  /*content: 'Disponible';*/
+}
+.advertpage-status-Available {
+  border-radius: 1rem;
+  color: #3fa549;
+  border: 1px #3fa549 dashed;
+  padding: 0.2rem 1rem;
+  font-weight: bold;
+  text-align: center;
+  flex: 1;
+}
+
+.advertpage-status-Reserved {
+  border-radius: 1rem;
+  color: rgb(163, 101, 30);
+  border: 1px rgb(163, 101, 30) dashed;
+  padding: 0rem 1rem;
+  text-align: center;
+  font-weight: bold;
+  flex: 1;
+}
+
+.advertpage-status-Sold {
+  border-radius: 1rem;
+  border: 1px #c84630 dashed;
+  padding: 0rem 1rem;
+  color: #c84630;
+  font-weight: bold;
+  text-align: center;
+  flex: 1;
+}
+
+.advertpage-price {
+  font-weight: bold;
+  font-size: 2rem;
+  white-space: nowrap;
+  overflow: hidden;
+  width: fit-content;
+  text-align: right;
+  flex: 1;
+}
+.advertpage-tags {
+  position: relative;
+  float: left;
+  clear: both;
+  margin: 1rem 0rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.advertpage-tags .advertpage-tag {
+  align-items: baseline;
+  background-color: #ccefff;
+  border-radius: 0.375em;
+  color: #009edd;
+  display: inline-flex;
+  font-size: 0.9rem;
+  height: 1.5em;
+  justify-content: center;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  white-space: nowrap;
+  margin-right: 0.5rem;
+}
+
+.advertpage-description {
+  font-size: 1.5rem;
+  margin: 0 0 3rem 0;
+  min-height: 4rem;
+}
+
+.advertpage-description-none {
+  font-size: 1rem;
+  min-height: 4rem;
+  margin: 0 0 3rem 0;
+  font-style: italic;
+  color: rgb(163, 163, 163);
+}
+
+.advertpage-footer {
+  display: flex;
+  flex-direction: row;
+}
+
+.advertpage-sold-footer {
+  background-color: #ddd;
+  padding: 0.1rem 0.5rem;
+  border-radius: 1rem;
+  clear: both;
+  float: left;
+  display: block;
+  position: relative;
+  font-size: smaller;
+  margin-top: 0.5rem;
+  color: #aaa;
+}
+
+.advertpage-sell {
+  background-color: #d4ffdf;
+  color: #4faa64;
+
+  padding: 0.2rem 1rem;
+  text-align: center;
+  border-radius: 30px;
+
+  cursor: pointer;
+  width: fit-content;
+  height: fit-content;
+}
+.advertpage-buy {
+  background-color: #ffd7ce;
+  color: #b46d5f;
+
+  padding: 0.2rem 1rem;
+  width: fit-content;
+  text-align: center;
+  border-radius: 30px;
+
+  cursor: pointer;
+  height: fit-content;
+}
+.advertpage-created {
+  text-align: right;
+  padding: 0.2rem;
+  flex: 1;
+  color: rgb(180, 180, 180);
+}
+.advertpage-social {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.advertpage-social .item {
+  flex: 1;
+  justify-content: center;
+  text-align: center;
+}
+
+@media all and (min-width: 576px) {
+  .advertpage-container {
+    width: 75%;
+  }
+  .advertpage-title-price {
+    flex-wrap: nowrap;
+  }
+  .advertpage-title {
+    flex: 1;
+    font-size: 2rem;
+    width: fit-content;
+  }
+  .advertpage-status-tags {
+    width: auto;
+    flex: none;
+  }
+  .advertpage-price {
+    width: auto;
+    flex: none;
+  }
+
+  .advertpage-social {
+    margin-top: 1rem;
+    justify-content: flex-end;
+  }
+  .advertpage-social .item {
+    flex: none;
+    margin-left: 1rem;
+    justify-content: flex-end;
+  }
+
+  .advertpage-reserved-sold .advertpage-reserved {
+    flex: 1;
+    margin: 0 2rem;
+  }
+
+  .advertpage-reserved-sold .advertpage-sold {
+    flex: 1;
+    margin: 0 2rem;
+  }
+
+  .advertpage-status-tags {
+    justify-content: flex-start;
+  }
+  .advertpage-status-Available {
+    width: fit-content;
+    flex: none;
+  }
+
+  .advertpage-status-Reserved {
+    width: fit-content;
+    flex: none;
+  }
+
+  .advertpage-status-Sold {
+    width: fit-content;
+    flex: none;
+  }
+  .advertpage-actions .button-text {
+    display: inline-block;
+  }
+}

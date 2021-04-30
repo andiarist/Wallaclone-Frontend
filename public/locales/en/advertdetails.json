@@ -1,0 +1,20 @@
+{
+  "Precio": "Price",
+  "Tipo": "Type",
+  "Se vende": "Sale",
+  "Se busca": "Buy",
+  "Etiquetas": "Tags",
+  "Descripción": "Description",
+  "Editar": "Edit",
+  "Eliminar": "Delete",
+  "Detalle del Anuncio": "Advert Detail",
+  "Vendido": "Sold",
+  "Encontrado": "Found",
+  "Reservado": "Reserved",
+  "Poner disponible": "Make available",
+  "Reservar": "Reserve",
+  "Poner a la venta": "Put on sale",
+  "Marcar como vendido": "Mark as sold",
+  "Disponible": "Available",
+  "Reactivar": "Reactivate"
+}

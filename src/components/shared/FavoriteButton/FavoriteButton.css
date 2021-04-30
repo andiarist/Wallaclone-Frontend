@@ -1,0 +1,14 @@
+.favorite-wrapper {
+  background-color: transparent;
+  border: none;
+  outline-style: none;
+}
+
+.favorite-wrapper .favorite-icon {
+  transition: transform 0.1s ease-in-out;
+}
+
+.favorite-wrapper:hover .favorite-icon {
+  cursor: pointer;
+  transform: scale(1.1);
+}

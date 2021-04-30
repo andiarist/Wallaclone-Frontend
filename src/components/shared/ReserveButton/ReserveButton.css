@@ -1,0 +1,33 @@
+.reserved-wrapper {
+  background-color: transparent;
+  border: none;
+  outline-style: none;
+  border-radius: 30px;
+  padding: 0.4rem 1rem;
+
+  cursor: pointer;
+}
+
+.reserved-wrapper-available {
+  border: none;
+  outline-style: none;
+  border-radius: 30px;
+  padding: 0.4rem 1rem;
+
+  cursor: pointer;
+  color: rgb(163, 101, 30);
+  background-color: rgb(255, 187, 110);
+  width: 100%;
+}
+
+.reserved-wrapper-reserved {
+  border: none;
+  outline-style: none;
+  border-radius: 30px;
+  padding: 0.4rem 1rem;
+
+  cursor: pointer;
+  background-color: #5dc19d;
+  color: #27664f;
+  width: 100%;
+}

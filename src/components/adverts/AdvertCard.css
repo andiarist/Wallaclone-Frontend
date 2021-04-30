@@ -1,0 +1,237 @@
+.card-link {
+  color: inherit;
+}
+
+.card-link:hover {
+  color: inherit;
+}
+
+.advert-tile {
+  width: 200px;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+.advert-tile-container {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+}
+
+.advert-tile-top {
+  height: var(--advert-card-img-height);
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+  margin: 0 auto;
+  background-color: #f7f7f7;
+}
+
+.pod {
+  width: 100%;
+  text-align: center;
+}
+
+.container-wider-than-higher {
+  height: var(--advert-card-img-height);
+  width: var(--advert-card-img-width);
+  overflow: hidden;
+  text-align: center;
+
+  margin: 0 auto;
+}
+.container-wider-than-higher img {
+  height: var(--advert-card-img-height);
+  min-width: 100%;
+  max-width: none;
+  margin: 0 -100%;
+}
+
+.container-higher-than-wider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: var(--advert-card-img-height);
+  width: var(--advert-card-img-width);
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.container-higher-than-wider img {
+  min-height: var(--advert-card-img-width);
+  width: 100%;
+  max-width: none;
+  margin: 0 -100%;
+}
+
+.advert-tile-bottom {
+  border-radius: 0 0 5px 5px;
+  background-color: var(--bg-color);
+  max-width: 200px;
+  max-height: 200px;
+  min-height: 200px;
+  margin: 0;
+  /*margin-bottom: 1rem;*/
+  font-size: 10pt;
+  padding: 0.5rem;
+  height: auto;
+  overflow: hidden;
+}
+
+.advert-tile-title {
+  font-weight: bold;
+  display: block;
+  position: relative;
+  float: left;
+  clear: both;
+}
+.advert-tile-title span {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  font-size: larger;
+}
+.tags {
+  position: relative;
+  float: left;
+  clear: both;
+  margin-bottom: 0.5rem;
+  min-height: 1.5rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.tags .tag {
+  align-items: baseline;
+  background-color: #ccefff;
+  border-radius: 0.375em;
+  color: #009edd;
+  display: inline-flex;
+  font-size: 0.6rem;
+  height: 1.5em;
+  justify-content: center;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  white-space: nowrap;
+  margin-right: 0.5rem;
+}
+.advert-price {
+  display: block;
+  position: relative;
+  float: right;
+  font-weight: bold;
+  font-size: 14pt;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 6rem;
+  text-align: right;
+}
+
+.advertcard-sold {
+  color: rgb(151, 151, 151) !important;
+}
+
+.advert-author {
+  flex: 1;
+  margin-left: 0.2rem;
+}
+.advert-author button {
+  border: none;
+  outline: none;
+  display: block;
+  background-color: #fdfdff;
+
+  color: #aaa;
+  transition: transform 0.1s ease-in-out;
+}
+.advert-author button:hover {
+  color: var(--bg-solid-color);
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.advert-desc {
+  display: block;
+  float: left;
+  height: 4.5rem;
+  clear: both;
+}
+.advert-desc span {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.advert-sold {
+  background-color: #ddd;
+  padding: 0.1rem 0.5rem;
+  border-radius: 1rem;
+  clear: both;
+  float: left;
+  display: block;
+  position: relative;
+  font-size: smaller;
+  margin-top: 0.5rem;
+  color: #aaa;
+}
+.advert-sell {
+  background-color: #d4ffdf;
+  padding: 0.1rem 0.5rem;
+  border-radius: 1rem;
+  clear: both;
+  float: left;
+  display: block;
+  position: relative;
+  font-size: smaller;
+  margin-top: 0.5rem;
+  color: #73b983;
+}
+.advert-buy {
+  background-color: #ffd7ce;
+  padding: 0.1rem 0.5rem;
+  border-radius: 1rem;
+  clear: both;
+  float: left;
+  display: block;
+  position: relative;
+  font-size: smaller;
+  margin-top: 0.5rem;
+  color: #d49588;
+}
+.advert-created {
+  display: block;
+  position: relative;
+  float: right;
+  color: #aaa;
+  font-size: smaller;
+  margin-top: 0.5rem;
+}
+.advert-header {
+  display: flex;
+  flex-direction: row;
+  background-color: var(--bg-color);
+  border-radius: 5px 5px 0 0;
+  padding: 0.5rem;
+}
+
+.icons {
+  clear: both;
+  float: left;
+  display: block;
+  position: relative;
+  /* z-index: 9998; */
+  height: 25px;
+}
+.icons img {
+  width: 25px;
+  height: 25px;
+}
+.hover-tile {
+  box-shadow: 0px 0px 3px rgba(124, 142, 210, 1);
+  transition: box-shadow 0.1s ease-in-out;
+}
+
+.hover-tile:hover {
+  box-shadow: 0px 0px 20px rgba(124, 142, 210, 0.8);
+}

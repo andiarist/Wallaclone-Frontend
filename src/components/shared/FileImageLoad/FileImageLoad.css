@@ -1,0 +1,38 @@
+.fileLoad-image {
+  border: dashed 2px var(--bg-solid-color);
+  height: 240px;
+  width: 210px;
+  padding: 0.2rem;
+}
+
+.fileLoad-image-empty {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fileLoad-image-container {
+  display: flex;
+  flex-direction: column;
+}
+.deleteimage-wrapper {
+  align-self: flex-end;
+}
+
+.addimage-wrapper,
+.deleteimage-wrapper {
+  background-color: transparent;
+  border: none;
+  outline-style: none;
+}
+
+.addimage-wrapper .addimage-icon,
+.deleteimage-wrapper .deleteimage-icon {
+  transition: transform 0.1s ease-in-out;
+}
+
+.addimage-wrapper:hover .addimage-icon,
+.deleteimage-wrapper:hover .deleteimage-icon {
+  cursor: pointer;
+  transform: scale(1.1);
+}

@@ -1,0 +1,101 @@
+/* Reset */
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --advert-card-img-height: 120px;
+  --advert-card-img-width: 200px;
+  --navbar-height: 80px;
+  --max-width: 1300px;
+  --footer-height: 60px;
+  --logo-color: #fdfdff;
+  --bg-color: #fdfdff;
+  --font-color: #393d3f;
+  --bg-solid-color: #7c8ed2;
+  --bg-button-main: #475a9e;
+  --color-button-main: #fdfdff;
+  --font-solid-color: #fdfdff;
+  --error-color: #e88873;
+  --success-color: #81e78c;
+  --warning-color: #ffb347;
+  --stand-out-color: #e88873;
+  --grey1-color: #c6c5b9;
+  --grey2-color: #e2dadb;
+  --forms-bg-color: #fdfdff;
+  --forms-border-radius: 0.5rem;
+  --forms-shadow: 3px 3px 5px -2px #000000;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+img,
+video {
+  max-width: 100%;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: var(--grey1-color);
+}
+
+/* index */
+
+body {
+  margin: 0;
+  font-family: 'Lato', 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell',
+    'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: var(--font-color);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.centered {
+  text-align: center;
+}
+
+/* GRID AND FLEX CONTAINERS */
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+@media all and (min-width: 576px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: 35% auto;
+    column-gap: 30px;
+  }
+  .flex-container {
+    justify-content: flex-start;
+  }
+  .flex-item {
+    margin-right: 10px;
+  }
+}
+@media all and (min-width: 768px) {
+  .grid-container {
+    grid-template-columns: 30% auto;
+  }
+}
+@media all and (min-width: 980px) {
+  .grid-container {
+    grid-template-columns: 25% auto;
+  }
+}

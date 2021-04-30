@@ -1,0 +1,35 @@
+.sold-wrapper {
+  background-color: transparent;
+  border: none;
+  outline-style: none;
+  border-radius: 30px;
+  padding: 0.4rem 1rem;
+
+  cursor: pointer;
+}
+
+.sold-wrapper-available {
+  background-color: transparent;
+  border: none;
+  outline-style: none;
+  border-radius: 30px;
+  padding: 0.4rem 1rem;
+
+  cursor: pointer;
+  color: white;
+  background-color: #c84630;
+  width: 100%;
+}
+
+.sold-wrapper-sold {
+  background-color: transparent;
+  border: none;
+  outline-style: none;
+  border-radius: 30px;
+  padding: 0.4rem 1rem;
+
+  cursor: pointer;
+  background-color: #5dc19d;
+  color: #27664f;
+  width: 100%;
+}

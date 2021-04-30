@@ -1,0 +1,65 @@
+.header-wrapper {
+  max-width: var(--max-width);
+  margin: 15px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0.5rem 0 0.5rem;
+}
+.header-logo .walla-logo {
+  font-family: 'Fredoka One', cursive;
+  color: var(--logo-color);
+  margin: 0;
+}
+.header-nav .nav-button {
+  margin-left: 2rem;
+}
+.language-profile-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 70px;
+}
+.login-image:hover {
+  cursor: pointer;
+}
+.user-tools-wrapper {
+  margin-right: 2em;
+}
+.header-search-input-wrapper {
+  flex: 1;
+  padding: 0px 2em 0px 2em;
+}
+
+.searchContainer {
+  display: inline-flex;
+  width: 100%;
+  background-color: #ccc;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.searchIcon {
+  padding: 0.5rem;
+
+  background-color: rgba(250, 250, 250, 0.6);
+}
+
+.searchBox {
+  border: 0;
+  padding: 0.5rem 0.5rem 0.5rem 0;
+  flex: 1;
+  background-color: rgba(250, 250, 250, 0.6);
+}
+.searchBox:focus {
+  outline: none;
+}
+
+.searchButton {
+  background: var(--bg-button-main);
+  border: 0;
+  color: var(--color-button-main);
+  padding: 0.5rem;
+  border-radius: 0;
+  cursor: pointer;
+  outline: none;
+}

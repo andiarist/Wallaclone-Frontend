@@ -1,0 +1,11 @@
+.notFoundPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.notFoundPage button {
+  border-radius: 20px;
+  border: none;
+}

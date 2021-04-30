@@ -1,0 +1,7 @@
+@media all and (max-width: 768px) {
+  .fixed-footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+}

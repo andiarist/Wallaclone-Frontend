@@ -1,0 +1,14 @@
+.flags-wrapper {
+  background-color: transparent;
+  border: none;
+  outline-style: none;
+}
+
+.flags-wrapper .flag-icon {
+  transition: transform 0.1s ease-in-out;
+}
+
+.flags-wrapper:hover .flag-icon {
+  cursor: pointer;
+  transform: scale(1.5);
+}

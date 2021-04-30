@@ -1,0 +1,104 @@
+:root {
+  --border-radius-left: 15px 0px 0px 15px;
+  --border-radius-right: 0px 15px 15px 0px;
+  --border-radius: 15px;
+}
+
+.chat-card {
+  display: flex;
+  flex-direction: row;
+
+  width: 100%;
+  height: fit-content;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+  border-radius: var(--border-radius);
+  margin-bottom: 1rem;
+  background-color: #f7f7f7;
+  height: 100px;
+  padding: 0;
+}
+
+.chat-card:hover {
+  box-shadow: 0px 0px 20px rgba(124, 142, 210, 0.8);
+  border-radius: var(--border-radius);
+  transition: box-shadow 0.1s ease-in-out;
+}
+.chat-card:last-child {
+  margin-left: auto;
+}
+.chat-card-link-wrapper {
+  flex: 1;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+.chat-card-link {
+  color: inherit;
+}
+
+.chat-card-link :hover {
+  color: inherit;
+}
+.chat-card-link {
+  display: flex;
+  flex-direction: row;
+  padding: 0 !important;
+  border: none !important;
+  height: 100%;
+  width: 100%;
+  border-radius: var(--border-radius-left) !important;
+}
+.chat-card-name-username {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex: 1;
+  max-width: 400px;
+  min-width: 100px;
+  height: 100px;
+  text-align: left;
+}
+.chat-card-name {
+  font-weight: bold;
+  font-size: 18pt;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  display: block;
+  overflow: hidden;
+}
+.chat-card-other-username {
+  font-size: 12pt;
+  font-style: italic;
+  color: grey;
+}
+.chat-card-photo-container {
+  margin-right: 1rem;
+}
+
+.chat-card-photo-container img {
+  max-height: 100px;
+  min-height: 100px;
+  max-width: 100px;
+  min-width: 100px;
+  overflow: hidden;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: var(--border-radius-left);
+}
+.chat-card-deletebutton-container {
+  align-self: flex-end;
+  height: 100px;
+  width: 100px;
+  max-height: 100px;
+  min-height: 100px;
+  max-width: 100px;
+  min-width: 100px;
+
+  min-width: 2rem;
+  border-radius: var(--border-radius-right);
+}
+.chat-card-deletebutton {
+  height: 100%;
+  width: 100%;
+  border-radius: var(--border-radius-right) !important;
+}

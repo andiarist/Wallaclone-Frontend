@@ -1,0 +1,31 @@
+.usertools {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(250, 250, 250, 0.6);
+  max-height: 55px;
+  max-width: 235px;
+  min-height: 55px;
+  min-width: 235px;
+  align-items: center;
+  border-radius: 40px;
+  padding: 0px 1rem;
+}
+
+.usertools .imgwrapper {
+  max-width: 30px;
+  max-height: 30px;
+}
+.usertools .imgwrapper img {
+  transition: 0.1s ease-in-out;
+  height: 30px;
+  width: 30px;
+}
+
+.usertools .imgwrapper img:hover {
+  height: 40px;
+  width: 40px;
+  max-width: 40px;
+  max-height: 40px;
+  margin-left: -5px;
+  margin-top: -5px;
+}

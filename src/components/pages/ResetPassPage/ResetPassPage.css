@@ -1,0 +1,27 @@
+.resetPage {
+  margin: 2rem auto 0 auto;
+  width: 350px;
+}
+
+.reset-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+
+  background-color: var(--forms-bg-color);
+  border-radius: var(--forms-border-radius);
+}
+
+.resetPage button {
+  width: 100%;
+  background-color: var(--bg-button-main);
+  color: var(--color-button-main);
+  border-radius: 20px;
+  border: 0px;
+}
+
+.resetPage button:hover {
+  background-color: var(--bg-solid-color);
+}
